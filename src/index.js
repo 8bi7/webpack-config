@@ -1,12 +1,10 @@
 import "./styles.scss";
 import "./style.css";
 
-(function () {
-  alert("hello");
-})();
+// eslint-disable-next-line no-undef
+alert("hello"); // eslint-disable-line no-alert
 
-const fancyFunc = () => {
-  return [1, 2];
-};
+const fancyFunc = () => [1, 2];
 
-const [a, b] = fancyFunc();
+const [, b] = fancyFunc();
+console.log(b);

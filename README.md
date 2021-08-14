@@ -1,5 +1,7 @@
 # webpack-config
 
+now with Eslint, Prettier and Airbnb style
+
 ## Install
 
 ```console

@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+package-lock.json
+/.pnp
+.pnp.js
+
+# production
+/dist
+
+# Secret files
+.env
+
+# Package managers
+npm-debug.log*
+
+# IDEs
+.idea
+.vscode/**/*
+.atom
+!.vscode/settings.json
+
+# Etc
+.DS_Store
+*.log
+
+# vscode local history plugin
+.history
+
